@@ -1,0 +1,48 @@
+# requirements.txt
+
+# Core Framework
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+pydantic-settings
+
+# LangChain and AI
+langchain
+langchain-openai
+langchain-community
+openai
+
+# Database
+supabase
+asyncpg
+sqlalchemy
+
+# HTTP and Async
+aiohttp
+httpx
+asyncio
+
+# Data Processing
+pandas
+numpy
+pyyaml
+
+# Utilities
+python-dateutil
+pytz
+
+# Logging and Monitoring
+loguru
+python-json-logger
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+
+# Development
+black
+flake8
+mypy
+pre-commit
